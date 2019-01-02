@@ -1,0 +1,17 @@
+# ---------- 端口号 ---------------- #
+server:
+  port: 2001
+
+# ---------- 服务名 ---------------- #
+spring:
+  application:
+    name: service-provider-01
+
+# ---------- 指定注册中心 -------------- #
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka
+
+
+
