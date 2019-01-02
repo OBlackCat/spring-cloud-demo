@@ -1,0 +1,13 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: config-client
+
+  cloud:
+    config:
+      label: master
+      name: config
+      profile: dev
+      uri: http://localhost:8001
